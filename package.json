@@ -1,0 +1,28 @@
+{
+  "name": "@jay-es/eslint-config-nextjs-no-default-export",
+  "version": "0.1.1",
+  "description": "ESLint configuration for Next.js",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "react",
+    "next.js",
+    "no-default-export"
+  ],
+  "author": "jay-es",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-import": "^2.28.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3"
+  }
+}
