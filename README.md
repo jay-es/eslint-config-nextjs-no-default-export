@@ -6,11 +6,13 @@ Enforce default exports in App Router's special files (e.g. page.js), and prohib
 ## Usage
 
 Install packages.
+
 ```shell
 npm install -D @jay-es/eslint-config-nextjs-no-default-export eslint-plugin-import
 ```
 
 And then add to `.eslintrc`.
+
 ```jsonc
 {
   "extends": [

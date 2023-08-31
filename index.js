@@ -7,6 +7,9 @@ module.exports = {
   },
   overrides: [
     {
+      /**
+       * @see https://nextjs.org/docs/app/building-your-application/routing#file-conventions
+       */
       files: [
         "{,src/}app/**/layout.{js,jsx,tsx}",
         "{,src/}app/**/page.{js,jsx,tsx}",
