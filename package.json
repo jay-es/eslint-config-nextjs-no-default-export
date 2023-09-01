@@ -1,7 +1,7 @@
 {
   "name": "@jay-es/eslint-config-nextjs-no-default-export",
-  "version": "0.1.1",
-  "description": "ESLint configuration for Next.js",
+  "version": "0.1.2",
+  "description": "Enforce default exports in Next.js App Router's special files, and prohibit it in other files",
   "main": "index.js",
   "files": [
     "README.md",
@@ -12,11 +12,15 @@
   },
   "keywords": [
     "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "javascript",
     "react",
     "next.js",
     "no-default-export"
   ],
   "author": "jay-es",
+  "repository": "jay-es/eslint-config-nextjs-no-default-export",
   "license": "MIT",
   "dependencies": {
     "eslint-plugin-import": "^2.28.1"
