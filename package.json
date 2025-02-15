@@ -1,6 +1,6 @@
 {
   "name": "@jay-es/eslint-config-nextjs-no-default-export",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Enforce default exports in Next.js App Router's special files, and prohibit it in other files",
   "type": "commonjs",
   "main": "index.js",
