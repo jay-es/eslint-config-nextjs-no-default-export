@@ -11,13 +11,13 @@ Install packages.
 npm install -D @jay-es/eslint-config-nextjs-no-default-export eslint-plugin-import
 ```
 
-And then add to `.eslintrc`.
+And then add to `eslint.config.js`.
 
-```jsonc
-{
-  "extends": [
-    // ...
-    "@jay-es/nextjs-no-default-export"
-  ]
-}
+```js
+import noDefaultExport from "@jay-es/eslint-config-nextjs-no-default-export";
+
+export default [
+  // ...
+  ...noDefaultExport,
+];
 ```

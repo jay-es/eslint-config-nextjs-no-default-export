@@ -21,7 +21,10 @@
     "no-default-export"
   ],
   "author": "jay-es",
-  "repository": "jay-es/eslint-config-nextjs-no-default-export",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay-es/eslint-config-nextjs-no-default-export.git"
+  },
   "license": "MIT",
   "dependencies": {
     "eslint-plugin-import": "^2.31.0"
